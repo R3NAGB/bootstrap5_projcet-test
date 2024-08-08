@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar    -->
+     
+    <!-- class="navbar navbar-expand-sm navbar-dark bg-primary"   -->
+    <nav class="navbar navbar-expand-sm navbar-dark p-1 bg-secondary">
+        <div class="container">
+            <a href="index.html" class="navbar-brand fs-2 ms-1" >Chan<span class="text text-danger">Rin.</span></a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto p-3 fs-5">
+                        <li class="nav-item"><a href="#" class="nav-link text text-dark  nav-color ">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text text-dark  nav-color">service</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text text-dark  nav-color">About</a></li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link  text text-dark "  data-bs-toggle="modal" data-bs-target="#myModal">
+                                Form
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- FormModal -->
+     <div class="modal fade " id="myModal">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                <div class="modal-header ">
+                    <h5 class="modal-title">Contact for work</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group align-items: start;">
+                            <label for="" class="  mb-1 fs-5">Gmail</label>
+                            <input type="email" placeholder="Enter your gmail... " class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="" class=" mb-1 fs-5">Section</label>
+                            <input type="text" placeholder="Enter your Section..." class="form-control">
+                        </div>
+                        <div class="form-control">
+                            <label for="" class=" mb-1 fs-5">Details</label>
+                            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+                            <button class="btn btn-success">submit</button>
+                        </div>
+                    </form>
+                </div>
+             </div> 
+        </div>
+
+     </div>
+     
+     <!--slider -->
+     <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3 text-primary  title">data deployment</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores impedit iste velit. Tenetur nostrum voluptatum quod obcaecati quisquam animi?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 ">
+                   <div class="container">
+                       <div class="carousel-caption d-none d-sm-block">
+                           <h1 class="display-3  text-info title">software Engineer</h1>
+                           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores impedit iste velit. Tenetur nostrum voluptatum quod obcaecati quisquam animi?</p>
+                       </div>
+                   </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                   <div class="container">
+                       <div class="carousel-caption d-none d-sm-block">
+                           <h1 class="display-3 text-Success title">Web deployment</h1>
+                           <p class="pcolor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni asperiores impedit iste velit. Tenetur nostrum voluptatum quod obcaecati quisquam animi?</p>
+                       </div>
+                   </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                   <span class="carousel-control-next-icon"></span>
+               </button>
+            </div>
+        </div>
+   </section>
+<!--service  -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-user fa-3x mb-2"></i>
+                    <h3>User</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatum sit magni corrupti?</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-photo-video fa-3x mb-2"></i>
+                    <h3>photo-video</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore molestiae consequatur.</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fas fa-camera fa-3x mb-2"></i>
+                    <h3>Camera</h3>
+                    <p> doloremque quisquam, saepe assumenda veniam provident optio impedit incidunt excepturi ipsum tenetur dolore! Molestiae ipsum dignissimos optio voluptatibus?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--about-->
+    <section id="about" class="p-5">
+            <div class="dark-overlay">
+                <div class="row">
+                    <div class="col">
+                        <div class="container pt-5">
+                            <h1 class="text-center">
+                                about Conten
+                            </h1>
+                            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dolor et nisi!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+      <!-- gallary -->
+       <section id="gallary " class="p-5">
+                <div class="container">
+                    <h1 class="text-center">My gallary</h1>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nam beatae dolorem fuga exercitationem repellat placeat. Blanditiis deserunt ipsum quisquam!
+                    </p>
+                    <!-- Image -->
+                     <div class="row mb-2 ">
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2018/04/28/22/03/tree-3358468_1280.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/03/02/19/37/tunnel-7826204_640.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2020/01/23/16/42/embrace-4788167_640.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/01/28/12/18/fog-7750811_640.jpg" alt="" class="w-100">
+                        </div> 
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2024/02/07/16/15/flower-8559381_640.jpg" alt="" class="w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/09/11/16/44/roses-8247285_640.jpg" alt="" class=" img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/10/12/06/44/flowers-8309995_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2018/02/15/21/55/sunset-3156440_640.jpg" alt="" class=" img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2021/04/02/12/35/plum-blossom-6144845_1280.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2018/09/29/22/50/meadow-3712483_640.jpg" alt="" class=" img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2024/01/03/17/53/sunset-8485916_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2022/08/10/18/57/lake-7377942_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/10/21/11/46/sunset-8331285_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/02/02/10/02/sunset-7762468_640.jpg" alt="" class=" img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2023/06/27/10/51/man-8091933_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/09/10/59/mount-fuji-2297961_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <img src="https://cdn.pixabay.com/photo/2018/11/29/23/32/sky-3846778_640.jpg" alt="" class="img-fluid w-100">
+                        </div>
+                     </div>
+
+                </div>
+       </section>
+       <footer class="text-center p-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>copyright &copy; ReanChanRin 8/7/2024</p>
+                        <p>hello word v1</p>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+     
+
+    
+</body>
+</html>

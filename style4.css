@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredoka:wght@300..700&family=Hanuman:wght@100;300;400;700;900&family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Madimi+One&family=Meddon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    
+}
+.navbar-brand{
+ font-weight: 600;
+}
+.navbar-toggler-icon{
+    font-size: 18px;
+    
+
+}
+.title{
+    background-color: #28282a;
+    opacity: 0.7;
+    border-radius: 2px;
+    
+}
+
+.carousel-item{
+    height:500px;
+}
+
+
+.carousel-image-1{
+    background-image: url('image/data.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-2{
+    background-image: url('image/sotfware-engineer.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-image-3{
+    background-image: url('image/web.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.nav-color:hover{
+    color: aqua;
+    border-bottom: 1px solid black;
+}
